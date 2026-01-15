@@ -1,4 +1,4 @@
-# Zed SpyglassMC
+# SpyglassMC Zed
 Minecraft Datapack language support for [Zed](https://zed.dev) powered by [Spyglass](https://github.com/SpyglassMC/Spyglass).
 
 ## Features

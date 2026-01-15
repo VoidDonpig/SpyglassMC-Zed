@@ -1,0 +1,15 @@
+id = "spyglassmc-zed"
+name = "SpyglassMC-Zed"
+description = "Comprehensive Minecraft Datapack language support using SpyglassMC."
+version = "0.1.0"
+schema_version = 1
+authors = ["VoidDonpig"]
+repository = "https://github.com/VoidDonpig/Spyglass-LSP-Index"
+
+[language_servers.spyglassmc-zed]
+name = "spyglassmc-zed"
+languages = ["mcfunction", "json"]
+
+[grammars.mcfunction]
+repository = "https://github.com/IoeCmcomc/tree-sitter-mcfunction"
+commit = "5bf1f08320697c24f395af76422a845f9f627fb0"

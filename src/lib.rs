@@ -37,6 +37,8 @@ impl zed::Extension for SpyglassmcExtension {
         _language_server_id: &zed::LanguageServerId,
         _worktree: &zed::Worktree,
     ) -> Result<zed::Command> {
+        let root = _worktree.root_path();
+        eprintln!("Worktree root: {}", root);
         let server_filename = "zed_spyglass_server.js";
         let download_url =
             "https://github.com/VoidDonpig/Spyglass-LSP-Index/releases/download/latest/index.js";
